@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #080707;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -39,14 +39,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #e9ec1b;
+    background: #3db9de;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #ebee33;
+    background: #53c1e2;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -56,14 +56,14 @@
       height: 250px;
       background: url("../img/groot.jpg");
       border-radius: 50%;
-      border: solid 3px #25241e; }
+      border: solid 3px #fffefa; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #25241e; }
+      color: #fffefa; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -71,11 +71,11 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #080707;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #25241e; }
+      color: #fffefa; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -124,8 +124,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #ebee33;
-  color: #fff;
+  background: #53c1e2;
+  color: #080707;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -142,7 +142,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(235, 238, 51, 0.7); }
+      background: rgba(83, 193, 226, 0.7); }
 
 h1,
 h2,
@@ -158,10 +158,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(236, 239, 60, 0); }
+    background: rgba(92, 196, 227, 0); }
 
 a {
-  color: #fff;
+  color: #080707;
   text-decoration: none; }
 
 header {
@@ -170,7 +170,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #25241e; }
+  color: #fffefa; }
 
 main {
   padding: 4rem;
@@ -180,7 +180,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #25241e;
+        color: #fffefa;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }

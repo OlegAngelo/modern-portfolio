@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #080707;
+    background: #ffffff;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -23,7 +23,6 @@
 .menu {
   position: fixed;
   width: 100%;
-  opacity: 0.96;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -39,14 +38,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #3db9de;
+    background: rgba(0, 0, 0, 0.507);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #53c1e2;
+    background: rgba(30, 32, 32, 0.507);
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -56,26 +55,26 @@
       height: 250px;
       background: url("../img/groot.jpg");
       border-radius: 50%;
-      border: solid 3px #fffefa; }
+      border: solid 5px #ffcc00; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #fffefa; }
+      color: #ffffff; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    font-weight: 300;
-    color: #080707;
+    font-weight: bold;
+    color: #ffcc00;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #fffefa; }
+      color: #ffffff; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -124,8 +123,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #53c1e2;
-  color: #080707;
+  background: rgba(18, 19, 19, 0.507);
+  color: #ffffff;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -142,7 +141,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(83, 193, 226, 0.7); }
+      background: rgba(18, 19, 19, 0.8); }
 
 h1,
 h2,
@@ -158,10 +157,12 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(92, 196, 227, 0); }
+    background: rgba(23, 24, 24, 0);
+    color: #f82f2f;
+    font-weight: bold; }
 
 a {
-  color: #080707;
+  color: #ffffff;
   text-decoration: none; }
 
 header {
@@ -170,7 +171,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #fffefa; }
+  color: #ffcc00; }
 
 main {
   padding: 4rem;
@@ -180,7 +181,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #fffefa;
+        color: #ffcc00;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }

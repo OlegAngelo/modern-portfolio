@@ -12,7 +12,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: $third-color;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
 
@@ -64,7 +64,7 @@
   &-nav {
     margin: 0;
     padding: 0;
-    background: darken($primary-color, 10);
+    background: $primary-color;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     @include easeOut;
@@ -105,7 +105,7 @@
     }
 
     &.current > a {
-      color: $third-color;
+      color: $secondary-color;
     }
   }
 
@@ -116,12 +116,12 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: bold;
-    color: $secondary-color;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
     &:hover {
-      color: $third-color;
+      color: $secondary-color;
     }
   }
 }

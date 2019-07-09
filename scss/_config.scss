@@ -1,7 +1,6 @@
-$primary-color: rgba(18, 19, 19, 0.507); //you can adjust color here
+$primary-color: rgba(36, 36, 36, 0.699); //you can adjust color here
 $secondary-color: #ffcc00; //you can adjust color here
 $third-color: #ffffff; //you can adjust color here
-$fourth-color: #f82f2f;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.8;
@@ -28,6 +27,14 @@ $background-opacity: 0.8;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+// set text color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
 

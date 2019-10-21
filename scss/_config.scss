@@ -1,3 +1,4 @@
+// colors are set to automatic adjustments of foreground and background colors
 $primary-color: rgba(36, 36, 36, 0.699); //you can adjust color here
 $secondary-color: #ffcc00; //you can adjust color here
 $third-color: #ffffff; //you can adjust color here
@@ -39,6 +40,7 @@ $background-opacity: 0.8;
 }
 
 // media query mixins
+// this is where mobile responsive comes in
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
